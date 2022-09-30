@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "stratDate": {
+    "startDate": {
       "type": "datetime"
     },
     "endDate": {

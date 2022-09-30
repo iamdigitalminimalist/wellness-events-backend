@@ -1,23 +1,12 @@
 {
   "collectionName": "components_event_images",
   "info": {
-    "displayName": "image",
+    "displayName": "imageCredits",
     "icon": "image",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "photographerName": {
       "type": "string"
     },

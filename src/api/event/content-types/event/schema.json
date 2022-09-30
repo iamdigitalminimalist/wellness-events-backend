@@ -23,12 +23,12 @@
     },
     "address": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "event.address"
     },
     "date": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "event.event-date"
     },
     "teachers": {
@@ -42,9 +42,9 @@
       "repeatable": true,
       "component": "event.pricing"
     },
-    "image": {
+    "coverImageCredits": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "event.image"
     },
     "accommodation": {
@@ -60,14 +60,15 @@
       "type": "richtext"
     },
     "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
