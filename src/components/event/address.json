@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_event_addresses",
+  "info": {
+    "displayName": "address",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

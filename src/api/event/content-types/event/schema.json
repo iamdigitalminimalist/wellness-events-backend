@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "location": {
+      "type": "string"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.address"
+    },
+    "date": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.event-date"
+    },
+    "teachers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::teacher.teacher",
+      "inversedBy": "events"
+    },
+    "pricing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.pricing"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.image"
+    },
+    "accommodation": {
+      "type": "richtext"
+    },
+    "meals": {
+      "type": "richtext"
+    },
+    "about": {
+      "type": "richtext"
+    },
+    "schedule": {
+      "type": "richtext"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_event_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "credit-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "NIS",
+        "EUR",
+        "USD",
+        "CAD"
+      ]
+    }
+  }
+}

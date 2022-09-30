@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_event_event_dates",
+  "info": {
+    "displayName": "eventDate",
+    "icon": "calendar-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stratDate": {
+      "type": "datetime"
+    },
+    "endDate": {
+      "type": "datetime"
+    }
+  }
+}

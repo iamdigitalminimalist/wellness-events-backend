@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_event_images",
+  "info": {
+    "displayName": "image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "photographerName": {
+      "type": "string"
+    },
+    "photographerCreditUrl": {
+      "type": "string"
+    },
+    "sourceName": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    }
+  }
+}
